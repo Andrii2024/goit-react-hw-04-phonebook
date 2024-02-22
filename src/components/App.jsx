@@ -5,7 +5,7 @@ import { ContactList } from './ContactList';
 import { Filter } from './Filter';
 import { StyledWrapper } from './App.styled';
 
-export class App extends Component {
+export class App extends React.Component {
   state = {
     contacts: [
       // { id: 'id-1', name: 'Rosie Simpson', number: '459-12-56' },
